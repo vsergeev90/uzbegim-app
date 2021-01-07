@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/uzbegim_app/static/css/main.8b3b58aa.chunk.css",
+    "main.js": "/uzbegim_app/static/js/main.60ae8414.chunk.js",
+    "main.js.map": "/uzbegim_app/static/js/main.60ae8414.chunk.js.map",
+    "runtime-main.js": "/uzbegim_app/static/js/runtime-main.cdc70caa.js",
+    "runtime-main.js.map": "/uzbegim_app/static/js/runtime-main.cdc70caa.js.map",
+    "static/js/2.e57336f0.chunk.js": "/uzbegim_app/static/js/2.e57336f0.chunk.js",
+    "static/js/2.e57336f0.chunk.js.map": "/uzbegim_app/static/js/2.e57336f0.chunk.js.map",
+    "index.html": "/uzbegim_app/index.html",
+    "precache-manifest.0c68cb7438b214479a51c058cca579d7.js": "/uzbegim_app/precache-manifest.0c68cb7438b214479a51c058cca579d7.js",
+    "service-worker.js": "/uzbegim_app/service-worker.js",
+    "static/css/main.8b3b58aa.chunk.css.map": "/uzbegim_app/static/css/main.8b3b58aa.chunk.css.map",
+    "static/js/2.e57336f0.chunk.js.LICENSE.txt": "/uzbegim_app/static/js/2.e57336f0.chunk.js.LICENSE.txt",
+    "static/media/bg_1.jpg": "/uzbegim_app/static/media/bg_1.78f6313e.jpg",
+    "static/media/dessert-5.jpg": "/uzbegim_app/static/media/dessert-5.92ec4fe8.jpg",
+    "static/media/restaurant.jpg": "/uzbegim_app/static/media/restaurant.d3cf8822.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.cdc70caa.js",
+    "static/js/2.e57336f0.chunk.js",
+    "static/css/main.8b3b58aa.chunk.css",
+    "static/js/main.60ae8414.chunk.js"
+  ]
+}
