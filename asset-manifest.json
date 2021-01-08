@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/uzbegim-app/static/css/main.8b3b58aa.chunk.css",
-    "main.js": "/uzbegim-app/static/js/main.29bc93f9.chunk.js",
-    "main.js.map": "/uzbegim-app/static/js/main.29bc93f9.chunk.js.map",
+    "main.js": "/uzbegim-app/static/js/main.9ef94e8f.chunk.js",
+    "main.js.map": "/uzbegim-app/static/js/main.9ef94e8f.chunk.js.map",
     "runtime-main.js": "/uzbegim-app/static/js/runtime-main.c41d731b.js",
     "runtime-main.js.map": "/uzbegim-app/static/js/runtime-main.c41d731b.js.map",
     "static/js/2.e57336f0.chunk.js": "/uzbegim-app/static/js/2.e57336f0.chunk.js",
     "static/js/2.e57336f0.chunk.js.map": "/uzbegim-app/static/js/2.e57336f0.chunk.js.map",
     "index.html": "/uzbegim-app/index.html",
-    "precache-manifest.e59252ed848a335cff80c6934459c156.js": "/uzbegim-app/precache-manifest.e59252ed848a335cff80c6934459c156.js",
+    "precache-manifest.d0a9c8dab7baf77a2971c887fd7081ed.js": "/uzbegim-app/precache-manifest.d0a9c8dab7baf77a2971c887fd7081ed.js",
     "service-worker.js": "/uzbegim-app/service-worker.js",
     "static/css/main.8b3b58aa.chunk.css.map": "/uzbegim-app/static/css/main.8b3b58aa.chunk.css.map",
     "static/js/2.e57336f0.chunk.js.LICENSE.txt": "/uzbegim-app/static/js/2.e57336f0.chunk.js.LICENSE.txt",
@@ -20,6 +20,6 @@
     "static/js/runtime-main.c41d731b.js",
     "static/js/2.e57336f0.chunk.js",
     "static/css/main.8b3b58aa.chunk.css",
-    "static/js/main.29bc93f9.chunk.js"
+    "static/js/main.9ef94e8f.chunk.js"
   ]
 }
