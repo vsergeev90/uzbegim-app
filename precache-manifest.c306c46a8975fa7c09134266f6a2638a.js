@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "fb42ac42889398c092af8c295b7f04cf",
+    "revision": "a5f41112bd145df82ea243ca7164a596",
     "url": "/uzbegim-app/index.html"
   },
   {
-    "revision": "634cacf03dfa06621cb4",
+    "revision": "3a8a52a080efa5ceda40",
     "url": "/uzbegim-app/static/css/main.8b3b58aa.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/uzbegim-app/static/js/2.e57336f0.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "634cacf03dfa06621cb4",
-    "url": "/uzbegim-app/static/js/main.cf6c70df.chunk.js"
+    "revision": "3a8a52a080efa5ceda40",
+    "url": "/uzbegim-app/static/js/main.f3eaba86.chunk.js"
   },
   {
     "revision": "cdc82ac4cb2fccc0ee80",
