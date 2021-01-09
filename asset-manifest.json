@@ -1,25 +1,25 @@
 {
   "files": {
     "main.css": "/uzbegim-app/static/css/main.8b3b58aa.chunk.css",
-    "main.js": "/uzbegim-app/static/js/main.8e908f1c.chunk.js",
-    "main.js.map": "/uzbegim-app/static/js/main.8e908f1c.chunk.js.map",
+    "main.js": "/uzbegim-app/static/js/main.05efdf79.chunk.js",
+    "main.js.map": "/uzbegim-app/static/js/main.05efdf79.chunk.js.map",
     "runtime-main.js": "/uzbegim-app/static/js/runtime-main.c41d731b.js",
     "runtime-main.js.map": "/uzbegim-app/static/js/runtime-main.c41d731b.js.map",
-    "static/js/2.b3a1ffa6.chunk.js": "/uzbegim-app/static/js/2.b3a1ffa6.chunk.js",
-    "static/js/2.b3a1ffa6.chunk.js.map": "/uzbegim-app/static/js/2.b3a1ffa6.chunk.js.map",
+    "static/js/2.83d3e2bf.chunk.js": "/uzbegim-app/static/js/2.83d3e2bf.chunk.js",
+    "static/js/2.83d3e2bf.chunk.js.map": "/uzbegim-app/static/js/2.83d3e2bf.chunk.js.map",
     "index.html": "/uzbegim-app/index.html",
-    "precache-manifest.1654a7e2bc705940ae2174abfb49e603.js": "/uzbegim-app/precache-manifest.1654a7e2bc705940ae2174abfb49e603.js",
+    "precache-manifest.c6a31b98a9518e3379f6d0424ab0ce0b.js": "/uzbegim-app/precache-manifest.c6a31b98a9518e3379f6d0424ab0ce0b.js",
     "service-worker.js": "/uzbegim-app/service-worker.js",
     "static/css/main.8b3b58aa.chunk.css.map": "/uzbegim-app/static/css/main.8b3b58aa.chunk.css.map",
-    "static/js/2.b3a1ffa6.chunk.js.LICENSE.txt": "/uzbegim-app/static/js/2.b3a1ffa6.chunk.js.LICENSE.txt",
+    "static/js/2.83d3e2bf.chunk.js.LICENSE.txt": "/uzbegim-app/static/js/2.83d3e2bf.chunk.js.LICENSE.txt",
     "static/media/bg_1.jpg": "/uzbegim-app/static/media/bg_1.78f6313e.jpg",
     "static/media/dessert-5.jpg": "/uzbegim-app/static/media/dessert-5.92ec4fe8.jpg",
     "static/media/restaurant.jpg": "/uzbegim-app/static/media/restaurant.d3cf8822.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.c41d731b.js",
-    "static/js/2.b3a1ffa6.chunk.js",
+    "static/js/2.83d3e2bf.chunk.js",
     "static/css/main.8b3b58aa.chunk.css",
-    "static/js/main.8e908f1c.chunk.js"
+    "static/js/main.05efdf79.chunk.js"
   ]
 }
