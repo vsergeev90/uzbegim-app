@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0bd809809f935bb8a2fda5bff09d8eaa",
+    "revision": "6f317b1281de7205b6e79431533b4e2d",
     "url": "/uzbegim-app/index.html"
   },
   {
-    "revision": "c1b5d6d6f08d1c0c2486",
+    "revision": "9ed6bad1b6b5bf2f1a99",
     "url": "/uzbegim-app/static/css/main.8b3b58aa.chunk.css"
   },
   {
-    "revision": "d45ad1fd932be578fe59",
-    "url": "/uzbegim-app/static/js/2.e57336f0.chunk.js"
+    "revision": "1a2172b1c8a6b82752a5",
+    "url": "/uzbegim-app/static/js/2.b3a1ffa6.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/uzbegim-app/static/js/2.e57336f0.chunk.js.LICENSE.txt"
+    "url": "/uzbegim-app/static/js/2.b3a1ffa6.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "c1b5d6d6f08d1c0c2486",
-    "url": "/uzbegim-app/static/js/main.4144b8a4.chunk.js"
+    "revision": "9ed6bad1b6b5bf2f1a99",
+    "url": "/uzbegim-app/static/js/main.8e908f1c.chunk.js"
   },
   {
     "revision": "cdc82ac4cb2fccc0ee80",
