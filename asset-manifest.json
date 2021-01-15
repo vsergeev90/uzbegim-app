@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/uzbegim-app/static/css/main.bd153f7d.chunk.css",
+    "main.css": "/uzbegim-app/static/css/main.e3ba880b.chunk.css",
     "main.js": "/uzbegim-app/static/js/main.a8a307e7.chunk.js",
     "main.js.map": "/uzbegim-app/static/js/main.a8a307e7.chunk.js.map",
     "runtime-main.js": "/uzbegim-app/static/js/runtime-main.c41d731b.js",
@@ -8,9 +8,9 @@
     "static/js/2.2f1c9adb.chunk.js": "/uzbegim-app/static/js/2.2f1c9adb.chunk.js",
     "static/js/2.2f1c9adb.chunk.js.map": "/uzbegim-app/static/js/2.2f1c9adb.chunk.js.map",
     "index.html": "/uzbegim-app/index.html",
-    "precache-manifest.0e9b0ec6cf44c5692a37cc1388e11ea5.js": "/uzbegim-app/precache-manifest.0e9b0ec6cf44c5692a37cc1388e11ea5.js",
+    "precache-manifest.08a271dc73098376400c31b39aae0959.js": "/uzbegim-app/precache-manifest.08a271dc73098376400c31b39aae0959.js",
     "service-worker.js": "/uzbegim-app/service-worker.js",
-    "static/css/main.bd153f7d.chunk.css.map": "/uzbegim-app/static/css/main.bd153f7d.chunk.css.map",
+    "static/css/main.e3ba880b.chunk.css.map": "/uzbegim-app/static/css/main.e3ba880b.chunk.css.map",
     "static/js/2.2f1c9adb.chunk.js.LICENSE.txt": "/uzbegim-app/static/js/2.2f1c9adb.chunk.js.LICENSE.txt",
     "static/media/bg_1.jpg": "/uzbegim-app/static/media/bg_1.d804fab4.jpg",
     "static/media/city-map-bw.png": "/uzbegim-app/static/media/city-map-bw.e0e711e5.png",
@@ -20,7 +20,7 @@
   "entrypoints": [
     "static/js/runtime-main.c41d731b.js",
     "static/js/2.2f1c9adb.chunk.js",
-    "static/css/main.bd153f7d.chunk.css",
+    "static/css/main.e3ba880b.chunk.css",
     "static/js/main.a8a307e7.chunk.js"
   ]
 }
