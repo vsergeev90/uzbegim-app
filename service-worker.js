@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/uzbegim-app/precache-manifest.f28265c0ae609be70583f980cc381c38.js"
+  "/uzbegim-app/precache-manifest.45b1294005f2a8e434481aaae5665273.js"
 );
 
 self.addEventListener('message', (event) => {
