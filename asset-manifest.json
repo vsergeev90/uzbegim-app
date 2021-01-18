@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/uzbegim-app/static/css/main.1155a181.chunk.css",
-    "main.js": "/uzbegim-app/static/js/main.f8a9d35f.chunk.js",
-    "main.js.map": "/uzbegim-app/static/js/main.f8a9d35f.chunk.js.map",
+    "main.css": "/uzbegim-app/static/css/main.2741f55e.chunk.css",
+    "main.js": "/uzbegim-app/static/js/main.8b261cb4.chunk.js",
+    "main.js.map": "/uzbegim-app/static/js/main.8b261cb4.chunk.js.map",
     "runtime-main.js": "/uzbegim-app/static/js/runtime-main.c41d731b.js",
     "runtime-main.js.map": "/uzbegim-app/static/js/runtime-main.c41d731b.js.map",
-    "static/js/2.2f1c9adb.chunk.js": "/uzbegim-app/static/js/2.2f1c9adb.chunk.js",
-    "static/js/2.2f1c9adb.chunk.js.map": "/uzbegim-app/static/js/2.2f1c9adb.chunk.js.map",
+    "static/js/2.3516266e.chunk.js": "/uzbegim-app/static/js/2.3516266e.chunk.js",
+    "static/js/2.3516266e.chunk.js.map": "/uzbegim-app/static/js/2.3516266e.chunk.js.map",
     "index.html": "/uzbegim-app/index.html",
-    "precache-manifest.303e1776cc2f64ce180ffbd7147e68fb.js": "/uzbegim-app/precache-manifest.303e1776cc2f64ce180ffbd7147e68fb.js",
+    "precache-manifest.8ad4bb57070b0c875f09aae75260c846.js": "/uzbegim-app/precache-manifest.8ad4bb57070b0c875f09aae75260c846.js",
     "service-worker.js": "/uzbegim-app/service-worker.js",
-    "static/css/main.1155a181.chunk.css.map": "/uzbegim-app/static/css/main.1155a181.chunk.css.map",
-    "static/js/2.2f1c9adb.chunk.js.LICENSE.txt": "/uzbegim-app/static/js/2.2f1c9adb.chunk.js.LICENSE.txt",
+    "static/css/main.2741f55e.chunk.css.map": "/uzbegim-app/static/css/main.2741f55e.chunk.css.map",
+    "static/js/2.3516266e.chunk.js.LICENSE.txt": "/uzbegim-app/static/js/2.3516266e.chunk.js.LICENSE.txt",
     "static/media/bg_1.jpg": "/uzbegim-app/static/media/bg_1.d804fab4.jpg",
-    "static/media/city-map-bw.png": "/uzbegim-app/static/media/city-map-bw.e0e711e5.png",
+    "static/media/city-map-bw.png": "/uzbegim-app/static/media/city-map-bw.296ee512.png",
     "static/media/dessert-5.jpg": "/uzbegim-app/static/media/dessert-5.92ec4fe8.jpg",
     "static/media/restaurant.jpg": "/uzbegim-app/static/media/restaurant.d3cf8822.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.c41d731b.js",
-    "static/js/2.2f1c9adb.chunk.js",
-    "static/css/main.1155a181.chunk.css",
-    "static/js/main.f8a9d35f.chunk.js"
+    "static/js/2.3516266e.chunk.js",
+    "static/css/main.2741f55e.chunk.css",
+    "static/js/main.8b261cb4.chunk.js"
   ]
 }

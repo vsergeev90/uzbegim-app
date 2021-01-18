@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b3944d2b9cadfdff2e507bfb7c23840e",
+    "revision": "a37747bf6db51a369a6f28cdebcda19f",
     "url": "/uzbegim-app/index.html"
   },
   {
-    "revision": "d47b205f373866d1702b",
-    "url": "/uzbegim-app/static/css/main.1155a181.chunk.css"
+    "revision": "adf74ff7a9230eae06c8",
+    "url": "/uzbegim-app/static/css/main.2741f55e.chunk.css"
   },
   {
-    "revision": "ef6a6ae13697964aba81",
-    "url": "/uzbegim-app/static/js/2.2f1c9adb.chunk.js"
+    "revision": "991ae7052f50ffadfa19",
+    "url": "/uzbegim-app/static/js/2.3516266e.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/uzbegim-app/static/js/2.2f1c9adb.chunk.js.LICENSE.txt"
+    "url": "/uzbegim-app/static/js/2.3516266e.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "d47b205f373866d1702b",
-    "url": "/uzbegim-app/static/js/main.f8a9d35f.chunk.js"
+    "revision": "adf74ff7a9230eae06c8",
+    "url": "/uzbegim-app/static/js/main.8b261cb4.chunk.js"
   },
   {
     "revision": "cdc82ac4cb2fccc0ee80",
@@ -28,8 +28,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/uzbegim-app/static/media/bg_1.d804fab4.jpg"
   },
   {
-    "revision": "e0e711e5e02b04c4cf215ff09d40c25f",
-    "url": "/uzbegim-app/static/media/city-map-bw.e0e711e5.png"
+    "revision": "296ee5127b22dc595adb033287b37411",
+    "url": "/uzbegim-app/static/media/city-map-bw.296ee512.png"
   },
   {
     "revision": "92ec4fe802faac2886f9dcb29ee0e0e0",
