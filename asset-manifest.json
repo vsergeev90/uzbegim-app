@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/uzbegim-app/static/css/main.f2db12b2.chunk.css",
-    "main.js": "/uzbegim-app/static/js/main.5e5f0472.chunk.js",
-    "main.js.map": "/uzbegim-app/static/js/main.5e5f0472.chunk.js.map",
-    "runtime-main.js": "/uzbegim-app/static/js/runtime-main.c41d731b.js",
-    "runtime-main.js.map": "/uzbegim-app/static/js/runtime-main.c41d731b.js.map",
-    "static/js/2.0693bc43.chunk.js": "/uzbegim-app/static/js/2.0693bc43.chunk.js",
-    "static/js/2.0693bc43.chunk.js.map": "/uzbegim-app/static/js/2.0693bc43.chunk.js.map",
-    "index.html": "/uzbegim-app/index.html",
-    "precache-manifest.0a930db53bd9a922ad25f9826330292f.js": "/uzbegim-app/precache-manifest.0a930db53bd9a922ad25f9826330292f.js",
-    "service-worker.js": "/uzbegim-app/service-worker.js",
-    "static/css/main.f2db12b2.chunk.css.map": "/uzbegim-app/static/css/main.f2db12b2.chunk.css.map",
-    "static/js/2.0693bc43.chunk.js.LICENSE.txt": "/uzbegim-app/static/js/2.0693bc43.chunk.js.LICENSE.txt",
-    "static/media/bg_1.jpg": "/uzbegim-app/static/media/bg_1.d804fab4.jpg",
-    "static/media/city-map-bw.png": "/uzbegim-app/static/media/city-map-bw.296ee512.png",
-    "static/media/dessert-5.jpg": "/uzbegim-app/static/media/dessert-5.92ec4fe8.jpg",
-    "static/media/restaurant.jpg": "/uzbegim-app/static/media/restaurant.d3cf8822.jpg"
+    "main.css": "/static/css/main.c716636d.chunk.css",
+    "main.js": "/static/js/main.d84bfdef.chunk.js",
+    "main.js.map": "/static/js/main.d84bfdef.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.1be5378e.js",
+    "runtime-main.js.map": "/static/js/runtime-main.1be5378e.js.map",
+    "static/js/2.5b555638.chunk.js": "/static/js/2.5b555638.chunk.js",
+    "static/js/2.5b555638.chunk.js.map": "/static/js/2.5b555638.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.671bbbbc15e1158fca5a9bf21f682245.js": "/precache-manifest.671bbbbc15e1158fca5a9bf21f682245.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.c716636d.chunk.css.map": "/static/css/main.c716636d.chunk.css.map",
+    "static/js/2.5b555638.chunk.js.LICENSE.txt": "/static/js/2.5b555638.chunk.js.LICENSE.txt",
+    "static/media/bg_1.jpg": "/static/media/bg_1.d804fab4.jpg",
+    "static/media/city-map-bw.png": "/static/media/city-map-bw.296ee512.png",
+    "static/media/dessert-5.jpg": "/static/media/dessert-5.92ec4fe8.jpg",
+    "static/media/restaurant.jpg": "/static/media/restaurant.d3cf8822.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.c41d731b.js",
-    "static/js/2.0693bc43.chunk.js",
-    "static/css/main.f2db12b2.chunk.css",
-    "static/js/main.5e5f0472.chunk.js"
+    "static/js/runtime-main.1be5378e.js",
+    "static/js/2.5b555638.chunk.js",
+    "static/css/main.c716636d.chunk.css",
+    "static/js/main.d84bfdef.chunk.js"
   ]
 }
