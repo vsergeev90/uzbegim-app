@@ -1,0 +1,22 @@
+.content-about {
+    padding: 0 1rem;
+    display: flex;
+    flex-direction: column;
+
+    img {
+        width: 100%;
+    }
+
+     @media (min-width: 990px) {
+        flex-direction: row;
+        padding: 0;
+
+        img {
+            width: 50%;
+        }
+
+        p {
+            padding-left: 2rem;
+        }
+     }
+}

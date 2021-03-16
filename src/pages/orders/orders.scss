@@ -1,0 +1,31 @@
+.order-wrapper {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.order {
+  display: flex;
+  border: 2px solid #c9ced3;
+
+  p {
+    font-size: 24px;
+  }
+
+  ol {
+    flex: 2 1;
+  }
+
+  div {
+    flex: 1 1;
+    border-right: 2px solid #c9ced3;
+    padding: 1rem;
+
+    &:first-of-type {
+      flex: 2 1;
+    }
+  }
+
+  button {
+    width: 100px;
+  }
+}

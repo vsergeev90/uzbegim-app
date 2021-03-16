@@ -1,0 +1,55 @@
+.tabs-wrapper {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem 1rem;
+  max-width: 490px;
+  margin: 0 auto;
+
+  button {
+    cursor: pointer;
+    height: 50px;
+    margin-bottom: 5px;
+    position: relative;
+    border: 0;
+    font-weight: bold;
+    font-size: 20px;
+    transition: background-color 0.3s ease-in-out;
+
+    &:hover {
+      background-color: #c8a97e;
+    }
+
+    &.is-active {
+      background-color: #c8a97e;
+      color: #fff;
+    }
+  }
+}
+
+@media (min-width: 990px) {
+  .tabs-wrapper {
+    max-width: inherit;
+    padding: 2rem 0;
+    flex-direction: row;
+
+    button {
+      flex: 1 1 auto;
+      background: #fff;
+      margin: 0 1px;
+
+      &.is-active::after {
+        position: absolute;
+        bottom: -9px;
+        left: 0;
+        right: 0;
+        width: 0;
+        content: "";
+        height: 0;
+        margin: 0 auto;
+        border-style: solid;
+        border-width: 10px 10px 0 10px;
+        border-color: #c8a97e transparent transparent transparent;
+      }
+    }
+  }
+}

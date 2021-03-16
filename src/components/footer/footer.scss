@@ -1,0 +1,47 @@
+.footer {
+  background-color: #000;
+  padding-top: 3rem;
+  margin-top: 3rem;
+  color: #fff;
+
+  .container {
+    padding: 1rem;
+  }
+
+  ul {
+    width: 100%;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+
+    li {
+      padding: 1rem;
+      list-style: none;
+    }
+  }
+
+  p,
+  a {
+    color: #fff;
+    font-weight: bold;
+  }
+
+  a:hover {
+    color: #d0992e;
+  }
+
+  @media (min-width: 990px) {
+    padding-top: 0;
+
+    .container {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+    }
+
+    .legal-notice {
+      flex: 1 1 100%;
+      text-align: center;
+    }
+  }
+}

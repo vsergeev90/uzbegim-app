@@ -1,0 +1,13 @@
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+    div {
+        flex: 0 0 48%;
+    }
+
+    @media (min-width: 990px) {
+        flex-direction: row;
+    }
+}
