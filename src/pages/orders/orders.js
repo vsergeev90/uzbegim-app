@@ -1,8 +1,8 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect } from 'react';
 
-import Loader from "../../components/loader/loader";
-import uzbegim from "../../utils/uzbegim-service";
-import "./orders.scss";
+import Loader from '../../components/loader/loader';
+import uzbegim from '../../utils/uzbegim-service';
+import './orders.scss';
 
 const server = new uzbegim();
 const { getOrders } = server;
@@ -12,18 +12,9 @@ const Order = () => {
 
   useEffect(() => {
     order();
-    hideNav();
 
     return () => {};
   }, []);
-
-  const hideNav = () => {
-    const nav = document.querySelector("#navbar");
-    const footer = document.querySelector(".footer");
-
-    nav.style.display = "none";
-    footer.style.display = "none";
-  };
 
   const order = async () => {
     try {

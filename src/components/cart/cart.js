@@ -1,8 +1,11 @@
-import React from "react";
-import server from "../../utils/uzbegim-service";
+import React from 'react';
+
+import server from '../../utils/uzbegim-service';
 // import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 // import { faTrashAlt } from "@fortawesome/free-solid-svg-icons";
-import "./cart.scss";
+import Form from '../form/form';
+import CustomButton from '../custom-button/custom-button';
+import './cart.scss';
 
 const uzbegim = new server();
 
@@ -14,11 +17,11 @@ const CartOverlay = (props) => {
   }
 
   const toggleContent = () => {
-    const content = document.querySelector(".cart");
+    const content = document.querySelector('.cart');
 
-    content.classList.contains("is-active")
-      ? content.classList.remove("is-active")
-      : content.classList.add("is-active");
+    content.classList.contains('is-active')
+      ? content.classList.remove('is-active')
+      : content.classList.add('is-active');
   };
 
   const packOrder = () => {
@@ -26,13 +29,13 @@ const CartOverlay = (props) => {
       cart,
       total: totalPrice,
       payed: true,
-      paymentMethod: "cash",
-      name: document.querySelector("#name").value,
-      address: document.querySelector("#address").value,
-      email: document.querySelector("#email").value,
-      phone: document.querySelector("#phone").value,
-      comment: document.querySelector("#comment").value,
-      status: "pending",
+      paymentMethod: 'cash',
+      name: document.querySelector('#name').value,
+      address: document.querySelector('#address').value,
+      email: document.querySelector('#email').value,
+      phone: document.querySelector('#tel').value,
+      comment: document.querySelector('#comment').value,
+      status: 'pending',
     };
 
     uzbegim.putOrder(order);
@@ -100,41 +103,40 @@ const CartOverlay = (props) => {
           <div className="cart-contact">
             <h2>Contact Info</h2>
             <form>
-              <input
-                type="text"
-                placeholder="Jmeno a Prijmeni"
-                id="name"
-              ></input>
-              <input
+              <Form name="name" type="text" label="Name" id="name" required />
+              <Form
+                name="email"
                 type="email"
-                placeholder="Email"
+                label="Email"
                 id="email"
                 required
-              ></input>
-              <input
+              />
+              <Form
+                name="tel"
                 type="tel"
-                placeholder="Phone Number"
-                id="phone"
+                label="Phone Numer"
+                id="tel"
                 required
-              ></input>
-              <input
+              />
+              <Form
+                name="address"
                 type="text"
-                placeholder="Address"
+                label="Address"
                 id="address"
                 required
-              ></input>
-              <input type="text" placeholder="Poznamka" id="comment"></input>
+              />
+              <Form name="comment" type="text" label="Poznamka" id="comment" />
             </form>
-            <button onClick={packOrder}>GO TO CHECKOUT</button>
+            <CustomButton onClick={packOrder}>GO TO CHECKOUT</CustomButton>
           </div>
         </div>
         <div className="cart-footer">
-          <button onClick={toggleContent} className="button">
+          <CustomButton onClick={toggleContent} className="button">
             Close
-          </button>
-          <button onClick={resetCart} className="button">
+          </CustomButton>
+          <CustomButton onClick={resetCart} className="button">
             Clear Order
-          </button>
+          </CustomButton>
         </div>
       </div>
       <div className="icon-wrapper" onClick={toggleContent}>

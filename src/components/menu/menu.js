@@ -1,11 +1,11 @@
-import React, { useEffect, useState } from "react";
-import Loader from "../loader/loader";
-import Tabs from "../tabs/tabs";
-import Modal from "../modal/modal.js";
-import DishInfo from "../dishInfo/dishInfo";
-import Cart from "../cart/cart";
-import MenuCard from "../menuCard/menuCard";
-import uzbegimService from "../../utils/uzbegim-service";
+import React, { useEffect, useState } from 'react';
+import Loader from '../loader/loader';
+import Tabs from '../tabs/tabs';
+import Modal from '../modal/modal.js';
+import DishInfo from '../dishInfo/dishInfo';
+import Cart from '../cart/cart';
+import MenuCard from '../menuCard/menuCard';
+import uzbegimService from '../../utils/uzbegim-service';
 
 const uzbegim = new uzbegimService();
 
@@ -19,9 +19,7 @@ const Menu = () => {
 
   useEffect(() => {
     getData();
-    return () => {
-      getData();
-    };
+    return () => {};
   }, []);
 
   useEffect(() => {
@@ -72,7 +70,7 @@ const Menu = () => {
   }, [menu]);
 
   const checkLocal = () => {
-    const data = JSON.parse(window.localStorage.getItem("chosen_food")) || [];
+    const data = JSON.parse(window.localStorage.getItem('chosen_food')) || [];
 
     if (data.length < 1) {
       return [];
@@ -119,22 +117,22 @@ const Menu = () => {
 
   const increaseCount = (e) => {
     const arr = [...cart];
-    const local = JSON.parse(window.localStorage.getItem("chosen_food"));
+    const local = JSON.parse(window.localStorage.getItem('chosen_food'));
     const tObj = arr.find(
-      (el) => el.slug === e.target.getAttribute("data-slug")
+      (el) => el.slug === e.target.getAttribute('data-slug')
     );
 
     tObj.count++;
     local.push(tObj.slug);
 
     setCart(arr);
-    window.localStorage.setItem("chosen_food", JSON.stringify(local));
+    window.localStorage.setItem('chosen_food', JSON.stringify(local));
   };
 
   const decreaseCount = (e) => {
-    const t = e.target.getAttribute("data-slug");
+    const t = e.target.getAttribute('data-slug');
     const arr = [...cart];
-    const local = JSON.parse(window.localStorage.getItem("chosen_food"));
+    const local = JSON.parse(window.localStorage.getItem('chosen_food'));
     const localIndex = local.indexOf(t);
     const tObj = arr.find((el) => el.slug === t);
     if (tObj.count > 1) {
@@ -150,11 +148,11 @@ const Menu = () => {
 
     setCart(arr);
     local.splice(localIndex, 1);
-    window.localStorage.setItem("chosen_food", JSON.stringify(local));
+    window.localStorage.setItem('chosen_food', JSON.stringify(local));
   };
 
   const getDishInfo = async (e) => {
-    const slug = e.target.getAttribute("data-course");
+    const slug = e.target.getAttribute('data-course');
     setShowInfo(true);
 
     try {
@@ -167,12 +165,12 @@ const Menu = () => {
 
   const onTabClick = (e) => {
     const clickedTab = e.target;
-    const value = clickedTab.getAttribute("data-category").toString();
-    const foodTitle = Array.from(document.querySelectorAll(".category-title"));
+    const value = clickedTab.getAttribute('data-category').toString();
+    const foodTitle = Array.from(document.querySelectorAll('.category-title'));
 
     foodTitle.forEach((el) => {
-      if (value === el.getAttribute("data-title-category")) {
-        el.scrollIntoView({ behavior: "smooth" });
+      if (value === el.getAttribute('data-title-category')) {
+        el.scrollIntoView({ behavior: 'smooth' });
       }
     });
   };
@@ -215,7 +213,7 @@ const Menu = () => {
         isShown={showCart}
         resetCart={() => {
           setCart([]);
-          window.localStorage.removeItem("chosen_food");
+          window.localStorage.removeItem('chosen_food');
           setShowCart(false);
         }}
       />

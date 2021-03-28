@@ -1,7 +1,7 @@
-import React, { useEffect } from "react";
+import React, { useEffect } from 'react';
 
-import ButtonMenu from "../../components/button-menu/button-menu";
-import "./tiles.scss";
+import ButtonMenu from '../../components/button-menu/button-menu';
+import './tiles.scss';
 
 const Tiles = ({ tiles, theme, tilesTitle }) => {
   useEffect(() => {
@@ -34,7 +34,7 @@ const Tiles = ({ tiles, theme, tilesTitle }) => {
   };
 
   let addEvent = () => {
-    window.addEventListener("scroll", debounce(checkSlide));
+    window.addEventListener('scroll', debounce(checkSlide));
   };
 
   let checkPosition = (element) => {
@@ -46,19 +46,19 @@ const Tiles = ({ tiles, theme, tilesTitle }) => {
   };
 
   let checkVisible = () => {
-    let elements = Array.from(document.querySelectorAll(".theme-2 .tile"));
+    let elements = Array.from(document.querySelectorAll('.theme-2 .tile'));
 
     elements.forEach((element) => {
       let position = checkPosition(element);
 
       if (window.innerHeight + window.scrollY > position) {
-        element.classList.add("fadeInUp");
+        element.classList.add('fadeInUp');
       }
     });
   };
 
   let checkSlide = () => {
-    let sliderElement = Array.from(document.querySelectorAll(".theme-2 .tile"));
+    let sliderElement = Array.from(document.querySelectorAll('.theme-2 .tile'));
     sliderElement.forEach((element) => {
       const slideInAt =
         window.scrollY + window.innerHeight - element.offsetHeight / 2;
@@ -66,7 +66,7 @@ const Tiles = ({ tiles, theme, tilesTitle }) => {
       const position = checkPosition(element);
 
       if (slideInAt > position && slideInAt < position + element.offsetHeight) {
-        element.classList.add("fadeInUp");
+        element.classList.add('fadeInUp');
       }
     });
   };
@@ -74,14 +74,14 @@ const Tiles = ({ tiles, theme, tilesTitle }) => {
   let onClickAction = (e) => {
     e.preventDefault();
     let arr =
-      window.localStorage.getItem("chosen_food") != null
-        ? JSON.parse(window.localStorage.getItem("chosen_food"))
+      window.localStorage.getItem('chosen_food') != null
+        ? JSON.parse(window.localStorage.getItem('chosen_food'))
         : [];
     let t = e.target;
-    let dataId = t.getAttribute("data-label");
+    let dataId = t.getAttribute('data-label');
 
     arr.push(dataId);
-    window.localStorage.setItem("chosen_food", JSON.stringify(arr));
+    window.localStorage.setItem('chosen_food', JSON.stringify(arr));
   };
 
   let tilesMarkup = tiles.map((item, index) => {
@@ -91,8 +91,8 @@ const Tiles = ({ tiles, theme, tilesTitle }) => {
 
     let buttonBlock = button ? (
       <ButtonMenu
-        buttonText={"Order"}
-        buttonLink={"#"}
+        buttonText={'Order'}
+        buttonLink={'#'}
         id={id}
         onClickAction={onClickAction}
       />
@@ -118,18 +118,8 @@ const Tiles = ({ tiles, theme, tilesTitle }) => {
     );
   });
 
-  let tilesTitleMarkup = tilesTitle ? (
-    <div className="tiles-title">
-      <h2>
-        <span className="subheading">{tilesTitle.subhead}</span>
-        {tilesTitle.title}
-      </h2>
-    </div>
-  ) : null;
-
   return (
     <div className="tiles">
-      {tilesTitleMarkup}
       <div className={theme} onScroll={checkSlide}>
         {tilesMarkup}
       </div>

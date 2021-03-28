@@ -1,86 +1,47 @@
-import React from "react";
-import "./home.scss";
+import React from 'react';
+import './home.scss';
 
-import HeroBanner from "../../components/heroBanner/heroBanner";
-import Tiles from "../../components/tiles/tiles";
-import bgImage from "../../assets/images/homepage/bg_1.jpg";
-import restaurantImage from "../../assets/images/homepage/restaurant.jpg";
-import foodImage from "../../assets/images/homepage/dessert-5.jpg";
-import ButtonMenu from "../../components/button-menu/button-menu";
-import About from "../../components/about/about";
+import HeroBanner from '../../components/heroBanner/heroBanner';
+import Tiles from '../../components/tiles/tiles';
+import bgImage from '../../assets/images/homepage/bg_1.jpg';
+import restaurantImage from '../../assets/images/homepage/restaurant.jpg';
+import ButtonMenu from '../../components/button-menu/button-menu';
+import About from '../../components/about/about';
+import Title from '../../components/title/title';
+import HERO_TILES from './hero_tiles.js';
+import SPECIALTIES_TILES from './specailties_tiles';
 
 const Homepage = () => {
   const bannerText = {
-    span: "UZBEGIM",
-    text: "delicious middle east cuisine",
-    button: "",
+    span: 'UZBEGIM',
+    text: 'delicious middle east cuisine',
+    button: '',
   };
 
-  //tiles on hero banner to not to break layout stick with 4 tiles with small description
-  const tiles = [
-    {
-      title: "Food Name",
-      image: foodImage,
-      description: "some text which describes the food and how delicios it is",
-    },
-    {
-      title: "Food Name",
-      image: foodImage,
-      description: "some text which describes the food and how delicios it is",
-    },
-    {
-      title: "Food Name",
-      image: foodImage,
-      description: "some text which describes the food and how delicios it is",
-    },
-    {
-      title: "Food Name",
-      image: foodImage,
-      description: "some text which describes the food and how delicios it is",
-    },
-  ];
-
-  const tilesSpecialties = [
-    {
-      title: "Food Name",
-      image: foodImage,
-      description: "some text which describes the food and how delicios it is",
-    },
-    {
-      title: "Food Name",
-      image: foodImage,
-      description: "some text which describes the food and how delicios it is",
-    },
-    {
-      title: "Food Name",
-      image: foodImage,
-      description: "some text which describes the food and how delicios it is",
-    },
-    {
-      title: "Food Name",
-      image: foodImage,
-      description: "some text which describes the food and how delicios it is",
-    },
-  ];
-
   const tilesSpeacialtiesTitle = {
-    subhead: "Specialties",
-    title: "Our menu",
+    subhead: 'Specialties',
+    title: 'Our menu',
   };
 
   return (
     <div className="content home">
       <header>
         <HeroBanner bgImage={bgImage} bannerText={bannerText} />
+        <Tiles tiles={HERO_TILES} tilesTitle="" theme="theme-1" />
       </header>
-      <Tiles tiles={tiles} tilesTitle="" theme="theme-1" />
-      <Tiles
-        tiles={tilesSpecialties}
-        tilesTitle={tilesSpeacialtiesTitle}
-        theme="theme-2"
-      />
-      <ButtonMenu buttonText={"See Full Menu"} buttonLink={"/menu"} />
-      <About image={restaurantImage} />
+      <section>
+        <Title title={'Our menu'} subhead={'Specialties'} />
+        <Tiles
+          tiles={SPECIALTIES_TILES}
+          tilesTitle={tilesSpeacialtiesTitle}
+          theme="theme-2"
+        />
+        <ButtonMenu buttonText={'See Full Menu'} buttonLink={'/menu'} />
+      </section>
+      <section>
+        <Title title={'About'} subhead={'About'} />
+        <About image={restaurantImage} />
+      </section>
     </div>
   );
 };
